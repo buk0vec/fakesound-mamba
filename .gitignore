@@ -3,3 +3,4 @@ build/
 .DS_store
 *.so
 *.o
+.github
