@@ -1,0 +1,27 @@
+Obtaining file:///mnt/custom-file-systems/efs/fs-06d71b1b0e467ad6a_fsap-04b5ed3a2025f81df/Vim/causal_conv1d
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Requirement already satisfied: torch in /home/sagemaker-user/.conda/envs/torch-2.4.1/lib/python3.11/site-packages (from causal_conv1d==1.0.0) (2.4.1.post303)
+Requirement already satisfied: packaging in /home/sagemaker-user/.conda/envs/torch-2.4.1/lib/python3.11/site-packages (from causal_conv1d==1.0.0) (23.2)
+Requirement already satisfied: ninja in /home/sagemaker-user/.conda/envs/torch-2.4.1/lib/python3.11/site-packages (from causal_conv1d==1.0.0) (1.11.1.1)
+Requirement already satisfied: filelock in /home/sagemaker-user/.conda/envs/torch-2.4.1/lib/python3.11/site-packages (from torch->causal_conv1d==1.0.0) (3.13.1)
+Requirement already satisfied: typing-extensions>=4.8.0 in /home/sagemaker-user/.conda/envs/torch-2.4.1/lib/python3.11/site-packages (from torch->causal_conv1d==1.0.0) (4.8.0)
+Requirement already satisfied: sympy in /home/sagemaker-user/.conda/envs/torch-2.4.1/lib/python3.11/site-packages (from torch->causal_conv1d==1.0.0) (1.12)
+Requirement already satisfied: networkx in /home/sagemaker-user/.conda/envs/torch-2.4.1/lib/python3.11/site-packages (from torch->causal_conv1d==1.0.0) (3.2.1)
+Requirement already satisfied: jinja2 in /home/sagemaker-user/.conda/envs/torch-2.4.1/lib/python3.11/site-packages (from torch->causal_conv1d==1.0.0) (3.1.2)
+Requirement already satisfied: fsspec in /home/sagemaker-user/.conda/envs/torch-2.4.1/lib/python3.11/site-packages (from torch->causal_conv1d==1.0.0) (2023.10.0)
+Requirement already satisfied: MarkupSafe>=2.0 in /home/sagemaker-user/.conda/envs/torch-2.4.1/lib/python3.11/site-packages (from jinja2->torch->causal_conv1d==1.0.0) (2.1.3)
+Requirement already satisfied: mpmath>=0.19 in /home/sagemaker-user/.conda/envs/torch-2.4.1/lib/python3.11/site-packages (from sympy->torch->causal_conv1d==1.0.0) (1.3.0)
+Installing collected packages: causal_conv1d
+  Attempting uninstall: causal_conv1d
+    Found existing installation: causal-conv1d 1.4.0
+    Uninstalling causal-conv1d-1.4.0:
+      Successfully uninstalled causal-conv1d-1.4.0
+  Running setup.py develop for causal_conv1d
+  Rolling back uninstall of causal-conv1d
+  Moving to /home/sagemaker-user/.conda/envs/torch-2.4.1/lib/python3.11/site-packages/causal_conv1d-1.4.0.dist-info/
+   from /home/sagemaker-user/.conda/envs/torch-2.4.1/lib/python3.11/site-packages/~ausal_conv1d-1.4.0.dist-info
+  Moving to /home/sagemaker-user/.conda/envs/torch-2.4.1/lib/python3.11/site-packages/causal_conv1d/
+   from /home/sagemaker-user/.conda/envs/torch-2.4.1/lib/python3.11/site-packages/~ausal_conv1d
+  Moving to /home/sagemaker-user/.conda/envs/torch-2.4.1/lib/python3.11/site-packages/causal_conv1d_cuda.cpython-311-x86_64-linux-gnu.so
+   from /tmp/pip-uninstall-35fi96b6/causal_conv1d_cuda.cpython-311-x86_64-linux-gnu.so
