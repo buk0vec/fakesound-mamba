@@ -1,0 +1,12 @@
+torch
+torchaudio
+torchvision
+librosa
+lightning
+tensorboard
+pandas
+s3fs
+einops
+timm
+triton
+transformers

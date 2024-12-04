@@ -1,0 +1,16 @@
+python3 run_experiment.py \
+--model_name vim-fs-20-10-bce-reg-aug \
+--if_augment 1 \
+--drop_path 0.01 \
+--weight_decay 0.05 \
+--num_workers 12 \
+--num_val_workers 12 \
+--pin_memory 0 \
+--pin_val_memory 0 \
+--dropout 0.2 \
+--seq_loss bce \
+--input_bucket "s3://bukovec-ml-data/FakeAudio" \
+--checkpoint_bucket "s3://bukovec-ml-checkpoints/vim-fs-experiments" \
+--image_uri "471112505033.dkr.ecr.us-east-1.amazonaws.com/vim-fakeaudio-experiments" \
+--output_bucket "s3://bukovec-ml-data/models" \
+--instance_type "ml.g5.48xlarge"
